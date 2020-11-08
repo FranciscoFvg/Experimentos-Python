@@ -1,3 +1,4 @@
+#Biblioteca inclusa no próprio python
 import webbrowser
 
 while True:
