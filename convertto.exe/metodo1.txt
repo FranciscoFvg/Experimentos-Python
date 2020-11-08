@@ -1,0 +1,6 @@
+#Método externo ao python de conversão em .exe
+#nessecita-se da extensão: 
+#pip install pyinstaller
+
+#comando de execução:
+#pyinstaller nomedoarquivo.py
