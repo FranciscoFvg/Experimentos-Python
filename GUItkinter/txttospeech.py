@@ -9,14 +9,14 @@ import win32com.client
 #e executa-se o método speak.
 speaker = win32com.client.Dispatch('SAPI.SpVoice')
 
-def faleIsso():
-    next = True
+def faleIsso(t):
+    #next = True
 
-    while next:
-        t = input('Digite algum texto:\n')
+    #while next:
+        #t = input('Digite algum texto:\n')
         #Digite 'exit' para encerrar a execução
-        if t == 'exit':
-            next = False
-            speaker.speak('Saindo')
-        else:
+        #if t == 'exit':
+        #    next = False
+        #    speaker.speak('Saindo')
+        #else:
             speaker.speak(t)
