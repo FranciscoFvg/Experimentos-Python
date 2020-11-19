@@ -20,3 +20,5 @@ def faleIsso():
             speaker.speak('Saindo')
         else:
             speaker.speak(t)
+
+faleIsso()
